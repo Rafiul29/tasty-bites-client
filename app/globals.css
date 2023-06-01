@@ -3,15 +3,20 @@
 @tailwind utilities;
 
 
+
+.wrapper{
+  @apply container mx-auto px-5 lg:px-0
+}
+
 .swiper-button-next,
 .swiper-button.prev{
-  color:white !important;
-  fill: white !important;
-  stroke: white !important;
+  color:#93149c !important;
+  fill: #93149c  !important;
+  stroke: #93149c  !important;
 }
 .swiper-pagination-bullet{
-  background-color: rgb(202, 189, 189) !important;
+  background-color: rgba(147, 20, 156, 0.98) !important;
 }
 .swiper-pagination-bullet-active{
-  background-color: white !important;
+  background-color: #93149c  !important;
 }
